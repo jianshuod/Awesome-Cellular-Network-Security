@@ -23,4 +23,9 @@ the Proceedings of the 32nd USENIX Security Symposium (USENIX Security), 2023 [[
 
 
 ## NLP
+**[✔️] Bookworm Game: Automatic Discovery of LTE Vulnerabilities Through Documentation Analysis** \
+*Yi Chen, Yepeng Yao, XiaoFeng Wang, Dandan Xu, Chang Yue, Xiaozhong Liu, Kai Chen, Haixu Tang, Baoxu Liu* (Indiana University Bloomington, CAS, University of Chinese Academy of Sciences) \
+2021 IEEE Symposium on Security and Privacy (SP), 2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9519388), [Talk](https://www.youtube.com/watch?v=MjYO7TlCYiY)] \
+**Targets:** NAS (3GPP TS 24.301 v16.6.0)
+
 **[❌]**
