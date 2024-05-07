@@ -51,37 +51,45 @@ A curated list of papers concerning Cellular Network Security
 #### Availability
 
 **BTS resource depletion attack:** Every commercial eNB has a maximum capacity of active user connections based on their hardware and software specifications. The purpose of the BTS resource depletion attack is to deplete this capacity of the active RRC Connections, thereby preventing other users from connecting to the target eNB.
-- conducted in [24042701] (RRC)
 
 **Blind DoS attack**: blocking the service of one target UE
-- conducted in [24042701] (RRC)
 - Potential causes:
   - Make the context of victim UE deleted (disconnected and forced to reconnected: several seconds of service disconnection)
 
 **Remote de-registration attack:** cause the MMEs to unnecessarily de-register the victim UE without notification
-- conducted in [24042701] (NAS)
 
 #### Confidentiality
 
 **SMS phishing attack**
-- conducted in [24042701] (NAS)
 
+Identity Mapping Attack
+- [layer2attack]
+  
 Replay attack
 
 silent Paging attack:
 - to obtain the S-TMSI of the victim
+
+Website Fingerprinting attack
+- [layer2attack]
 
 #### Integrity
 
 Spoofing
 
 **AKA BYPASS ATTACK**: rogue LTE network does not negotiate the security algorithm for the RRC layer and user data in response to a connection request from the victim UE.
-- conducted in [24042701] (RRC)
+
+**DNS redirection attack**
+- [layer2attack]
+
 
 ### Attack capacities
 
 ### Attack knowledge
 
+**Passive attack:** The passive attacker eavesdrops transmis- sions in up- and downlink direction within the same cell the user is located in. Therefore, the attacker can receive and decode signals sent out by the eNodeB and the UE. To do so, it is not mandatory to have any knowledge about the established key material.
+
+**Active Attacker.** In addition to the scope of the passive attacker, the active attack includes capabilities for sending radio signals on certain frequencies. Using these capabilities, the attacker can establish a malicious relay in the network by impersonating a UE towards the network and an eNodeB towards the user. Again, no knowledge of the key material is required for our attacks.
 
 # Tools
 ## Open-sourced protocol stacks
