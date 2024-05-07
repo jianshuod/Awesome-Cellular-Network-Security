@@ -21,8 +21,6 @@ NAS (Non-access Stratum)
 
 5GMM (5G Mobility Management)
 
-UMTS (Universal Mobile Telecommunications System): 3G
-
 RAN (Radio Access Network)
 - GERAN (GSM EDGE Radio Access Network): 2.5G / 2.75G
 - UTRAN (UMTS Terrestrial Radio Access Network): 3G
@@ -37,7 +35,7 @@ MNO (Mobile Network Operator)
 
 CSG (Closed Subscriber Group)
 
-TAI (International Atomic Time)
+TAI (Tracking Area Identity)
 
 SAE (System Architecture Evolution)
 
@@ -48,6 +46,9 @@ PDP（Policy Decision Point） Context
 - APN (Access Point Name)
 
 5G-GUTI (Globally Unique Temporary UE Identity)
+
+MME (Mobility Management Entity): a control point in the EPS
+- EMM is not a physical instance but a function set
 
 GUMMEI (Globally Unique MME Identifier)
 
@@ -89,8 +90,48 @@ IMS（IP Multimedia Subsystem）
 
 K_{ASME}（Authentication and Security Management Key for EPC）
 
-N1 mode and S1 mode in 5GMM-CONNECTED
-- 5G RAN + 5G CN in service:  all 5G functions are supported
-- 5G + 4G LTE
-
 EIA0（EPS Integrity Algorithm 0）:integrity algorithm used for emergency service
+
+PSM (Power Saving Mode)
+
+ISR (Idle State Relocation):
+- The key aspect of ISR is to preserve the UE's context both in the old network (previous serving network) and the new network (target serving network) for a certain period, even when the device is in an idle state.
+
+
+Network interfaces
+- Lu: 3G UMTS (RNC (Radio Network Controller) and (MSC or MGCF in CN))
+- S1: LTE (eNode B and (MME and S-GW in CN))
+- A/Gb
+    - A: GSM (BSS and MSC): for voice
+    - Gb: GPRS (BSS and SGSN): for data transmission
+- N1: 5G NR (UE and AMF): NAS messages
+- N2: 5G NR (gNodeB and AMF)
+
+GSM (Global System for Mobile Communication): 2G
+
+GPRS (General Packet Radio Service): 2.5G
+
+UMTS (Universal Mobile Telecommunications System): 3G
+
+eCall: emergency-related
+
+USIM (Universal Subscriber Identity Module)
+
+MUSIM (Multiple USIM)
+
+IE (Information Elements)
+
+
+CSFB (Circuit Switched Fallback) 
+
+TIN (Type of Identity)
+
+RAT (Radio Access Technology)
+
+S-TMSI（Security Temporary Mobile Subscriber Identity）
+
+P-TMSI（Public Temporary Mobile Subscriber Identity）
+
+IAB-node (Integrated Access and Backhaul node)
+
+DCN-ID (Data Communication Network Identifier)
