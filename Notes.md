@@ -73,6 +73,10 @@ silent Paging attack:
 Website Fingerprinting attack
 - [layer2attack]
 
+Padding Oracle Attack:
+- related to the integrity protection
+
+
 #### Integrity
 
 Spoofing
