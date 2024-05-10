@@ -1,4 +1,6 @@
-
+## Progress
+[Unread] 5.3: too rough
+[TBR] 5.4/A.1/
 
 
 ## Concepts and abbreviations
@@ -134,7 +136,6 @@ MUSIM (Multiple USIM)
 
 IE (Information Elements)
 
-
 CSFB (Circuit Switched Fallback) 
 
 TIN (Type of Identity)
@@ -148,3 +149,19 @@ P-TMSI（Public Temporary Mobile Subscriber Identity）
 IAB-node (Integrated Access and Backhaul node)
 
 DCN-ID (Data Communication Network Identifier)
+
+UICC (Universal Integrated Circuit Card)
+
+S101 mode: seamless switch between 3GPP and non-3GPP
+
+RACS: UE Radio Capability Signaling Optimization
+
+eDRX (Extended Discontinuous Reception)
+
+eKSI (extended Key Set Identifier)
+
+MANET (Mobile ad hoc Network)
+
+RAND (Random Challenge)
+
+RES (Response)
