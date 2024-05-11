@@ -32,12 +32,12 @@ RAN (Radio Access Network)
 RLOS (Restricted Local Operator Services)
 
 PLMN (Public Land Mobile Network)
+- MCC (Mobile Country Code)
+- MNC (Mobile Network Code)
 
 MNO (Mobile Network Operator)
 
 CSG (Closed Subscriber Group)
-
-TAI (Tracking Area Identity)
 
 SAE (System Architecture Evolution)
 
@@ -60,9 +60,16 @@ IMSI（International Mobile Subscriber Identity）
 
 AMF (Access and Mobility Management Function): 5G
 
+or AMF (Authentication management field)
+
+
 SMS (Short Message Service)
 
 AKA (Authentication and Key Agreement)
+
+AUTN (authentication token):
+- Used by the UE to verify the authenticity of the network. 
+- This includes a sequence number (SQN) and an authentication management field (AMF), both encrypted and integrity-protected using the operator-specific key K.
 
 AMBR (Aggregate Maximum Bit Rate)
 
@@ -78,13 +85,19 @@ KSI (Key Set Identifier)
 
 TMSI (Temporary Mobile Subscriber Identity)
 
+ICV (Integrity Check Value):
+- a broader concept than MAC
+- to check whether the content is altered (may involve no key)
+
 MAC (Message Authentication Code)
+- stored in AUTN
 
 TA (Tracking Area)
 
 TAC (Tracking Area Code)
 
 TAI (Tracking Area Identity)
+- The TAI list contains a list of Tracking Areas (TAs) that a User Equipment (UE) can move between without needing to perform a tracking area update each time it changes TA.
 
 V2X (Vehicle-to-Everything)
 
