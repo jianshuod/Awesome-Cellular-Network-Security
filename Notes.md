@@ -11,8 +11,6 @@ A curated list of papers concerning Cellular Network Security
 
 **Layer 2: Incorrect conformance to the requirements.** The operators / vendors may fail to follow the standards or omit some steps.
 
----
-
 **Layer 3: Ignoring the implementation feasibility.** The designs defined in the specs are logically feasible but practically challenging. For instance, a CPU needs time to finish one state transition. A vulnerable time window comes.
 
 **Layer 4: Undefined Behaviors.** The ensuing complexity and lack of explicitness lead to underspecification, where only subsets of possible interactions are properly specified, while other behaviour is left undefined and open to interpretation by developers. (Negative testing)

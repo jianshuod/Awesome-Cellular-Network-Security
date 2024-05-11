@@ -125,7 +125,7 @@ IE (Information Elements)
 
 CSFB (Circuit Switched Fallback) 
 
-TIN (Type of Identity)
+
 
 RAT (Radio Access Technology)
 
