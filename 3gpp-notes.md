@@ -172,5 +172,3 @@ DRX (Discontinuous Reception) parameter
 
 Wake-Up Signal (WUS) assistance
 - help UE save power by reducing unnecessary radio wake-ups
-
-WB-S1 vs. NB-S1: wideband (LTE/5G) vs. narrowband
