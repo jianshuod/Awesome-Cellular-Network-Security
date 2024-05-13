@@ -172,3 +172,7 @@ DRX (Discontinuous Reception) parameter
 
 Wake-Up Signal (WUS) assistance
 - help UE save power by reducing unnecessary radio wake-ups
+
+
+Single-registration mode
+- allows a UE to be registered on a single network at a time. This contrasts with dual-registration mode, where a device can maintain simultaneous registrations with more than one network generation—such as 4G LTE and 5G NR (New Radio).
