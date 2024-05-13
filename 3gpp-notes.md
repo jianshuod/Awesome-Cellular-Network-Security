@@ -112,7 +112,6 @@ PSM (Power Saving Mode)
 ISR (Idle State Relocation):
 - The key aspect of ISR is to preserve the UE's context both in the old network (previous serving network) and the new network (target serving network) for a certain period, even when the device is in an idle state.
 
-
 Network interfaces
 - Lu: 3G UMTS (RNC (Radio Network Controller) and (MSC or MGCF in CN))
 - S1: LTE (eNode B and (MME and S-GW in CN))
@@ -165,3 +164,11 @@ MANET (Mobile ad hoc Network)
 RAND (Random Challenge)
 
 RES (Response)
+
+N26 interface: switch between 4G and 5G
+
+DRX (Discontinuous Reception) parameter
+- relates to how a UE handles power-saving features while maintaining connectivity
+
+Wake-Up Signal (WUS) assistance
+- help UE save power by reducing unnecessary radio wake-ups
