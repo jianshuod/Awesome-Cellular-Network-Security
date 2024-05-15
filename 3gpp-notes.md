@@ -54,8 +54,6 @@ MME (Mobility Management Entity): a control point in the EPS
 
 GUMMEI (Globally Unique MME Identifier)
 
-P-TMSI (Packet Temporary Mobile Subscriber Identity): 2G/3G
-
 IMSI（International Mobile Subscriber Identity）
 
 AMF (Access and Mobility Management Function): 5G
@@ -172,3 +170,25 @@ DRX (Discontinuous Reception) parameter
 
 Wake-Up Signal (WUS) assistance
 - help UE save power by reducing unnecessary radio wake-ups
+
+SRVCC (Single Radio Voice Call Continuity)
+- ensures seamless handover of voice calls from LTE (Long-Term Evolution) networks to 2G/3G networks
+
+SIPTO: Selected IP Traffic Offload
+
+L-GW: Local Gateway
+
+LIPA (Local IP Access)
+
+
+
+## 5G
+SEAF (Security Anchor Function)
+
+AUSF: Authentication Server Function
+
+RM: Registration Management \
+CM: Connection Management \ 
+SM: Session Management
+
+LCS (Location Services)

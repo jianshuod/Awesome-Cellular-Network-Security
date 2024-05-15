@@ -111,6 +111,8 @@ Spoofing
 ## Hardwares
 **USPR B210**: software radio transceiver
 - used in [24042701]
+**LimeSDR USB v1.4**: SDR
+- used in [chen2022creek]
 
 ## Monitors
 **Airscope**: provides over-the-air user information by decoding the communication channels in the physical layer of LTE

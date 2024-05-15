@@ -14,10 +14,13 @@ the Proceedings of the 32nd USENIX Security Symposium (USENIX Security), 2023 [[
 **Targets:** Public Warning System (PWS), SMS in LTE, RRC (3GPP. TS 36.331, release 15.10, Chapter 5.3, 5.5 and Appendix A6) 
 
 
-**[✔️] 5GReasoner: A Property-Directed Security and Privacy Analysis Framework for 5G Cellular Network Protocol** \
+<!-- **[✔️] 5GReasoner: A Property-Directed Security and Privacy Analysis Framework for 5G Cellular Network Protocol** \
 *Syed Rafiul Hussain, Mitziu Echeverria, Imtiaz Karim, Omar Chowdhury, Elisa Bertino* (Purdue University) \
 CCS ’19, [[Paper](https://dl.acm.org/doi/10.1145/3319535.3354263)]
-**Targets:**
+**Targets:** -->
+
+
+
 
 ## Fuzzing
 **[✔️] Touching the Untouchables: Dynamic Security Analysis of the LTE Control Plane**  \
@@ -31,6 +34,11 @@ CCS ’19, [[Paper](https://dl.acm.org/doi/10.1145/3319535.3354263)]
 *Yi Chen, Yepeng Yao, XiaoFeng Wang, Dandan Xu, Chang Yue, Xiaozhong Liu, Kai Chen, Haixu Tang, Baoxu Liu* (Indiana University Bloomington, CAS, University of Chinese Academy of Sciences) \
 2021 IEEE Symposium on Security and Privacy (SP), 2021 [[Paper](https://ieeexplore.ieee.org/abstract/document/9519388), [Talk](https://www.youtube.com/watch?v=MjYO7TlCYiY)] \
 **Targets:** NAS (3GPP TS 24.301 v16.6.0)
+
+**[✔️] Seeing the Forest for the Trees: Understanding Security Hazards in the 3GPP Ecosystem through Intelligent Analysis on Change Requests** \
+*Yi Chen1, Di Tang1, Yepeng Yao2,4,∗ Mingming Zha1, XiaoFeng Wang1∗ Xiaozhong Liu3, Haixu Tang1, Dongfang Zhao1* (Indiana University Bloomington, CAS, University of Chinese Academy of Sciences) \
+the Proceedings of the 31st USENIX Security Symposium, 2022 [[Paper](https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yi)] \ 
+**Targets:** Change Requests
 
 **[❌]**
 
